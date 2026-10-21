@@ -1,20 +1,49 @@
-# Jayati Trehan — personal notebook
+# `import jayati`
 
-Static HTML, CSS and JavaScript. No build step.
+> A data scientist's notebook you can actually run.
 
-## Preview
-Open index.html in a browser. Keep styles.css, script.js and section-character.webp beside it.
+This is my personal website, built to look and feel like a Jupyter notebook. Each section is a cell. Scroll through it like a normal page, or hit **Run all cells** and watch it execute one cell at a time.
 
-## Resume required
-Add the original resume PDF as resume.pdf beside index.html. The button already points to that filename. The PDF could not be downloaded during this revision and is not included.
+**Live site:** [jayatitrehan01.github.io](https://jayatitrehan01.github.io)
 
-## GitHub Pages
-1. Create a public repository named Jayatitrehan01.github.io.
-2. Upload index.html, styles.css, script.js, section-character.webp and resume.pdf to its root.
-3. Open Settings → Pages. Under Build and deployment, choose Deploy from a branch, then main and / (root). Save.
-4. GitHub will show the live address after deployment: https://jayatitrehan01.github.io/.
+---
 
-## Editing
-Project cards are standalone article elements inside .project-grid. Copy a card to add a project; the grid keeps them equally sized. Content remains readable without JavaScript. Animations pause off screen and can be disabled with the animation control; reduced-motion preferences disable them automatically.
+## What's inside
 
-The illustrations use the existing section-character.webp sheet with CSS cutout masks. A separate clean transparent source image has not yet been produced.
+| Cell | What it shows |
+|------|---------------|
+| `In [1]: import jayati` | Who I am, with links to LinkedIn, GitHub, Medium and my resume |
+| `In [2]: jayati.about()` | A little about me, by day and by night |
+| `In [3]: jayati.experience()` | My work as a Data Scientist at Docplexus and my internship at Celebal Technologies |
+| `In [4]: jayati.projects()` | DISHA, Document Delta and Grounded Chat, House Price Prediction and Smart Meal Planner |
+| `In [5]: jayati.blogs()` | What I write on Medium |
+| `In [6]: jayati.skills()` | The tools and methods I work with |
+| `In [7]: jayati.education()` | MBA in Data Science and B.A. in Computer Science and Mathematics |
+| `In [8]: jayati.contact()` | How to reach me |
+
+## Little details
+
+- **Run all cells** runs every section in order, with a loading spinner and `In [*]` just like a real notebook
+- Light and dark mode, plus a button to pause animations
+- A mini version of me shows up in every section, doing something related to it
+- Respects reduced motion settings and works with a keyboard and screen readers
+- There's a small easter egg too. Try typing **hire** anywhere on the page 👀
+
+## Built with
+
+Plain HTML, CSS and JavaScript. No frameworks, no build step, hosted for free on GitHub Pages.
+
+## Run it locally
+
+```bash
+git clone https://github.com/Jayatitrehan01/Jayatitrehan01.github.io.git
+cd Jayatitrehan01.github.io
+```
+
+Then just open `index.html` in your browser.
+
+## Let's talk
+
+📧 [jayati.trehan998@gmail.com](mailto:jayati.trehan998@gmail.com)
+💼 [LinkedIn](https://www.linkedin.com/in/jayatitrehan/)
+✍️ [Medium](https://medium.com/@jayati.trehan998)
